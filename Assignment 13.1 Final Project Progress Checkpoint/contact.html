@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Mitchel Moss." />
+  <meta name="author" content="Mitchel Moss" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Contact | Mitchel Moss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Go to homepage">
+      <img class="brand__logo" src="images/logo.png" alt="MPM logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mitchel Moss</span>
+        <span class="brand__tag">Cybersecurity • Network Security • Digital Forensics</span>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav__link" href="index.html">Home</a>
+<a class="nav__link" href="about.html">About</a>
+<a class="nav__link" href="projects.html">Projects</a>
+<a class="nav__link" href="boards.html">Boards</a>
+<a class="nav__link is-active" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="section">
+  <div class="container">
+    <div class="grid">
+      <article class="card col-7">
+        <div class="card__pad">
+          <div class="kicker">Contact</div>
+          <h1 class="h1">Send a message</h1>
+          <p class="lead">This form is for quick outreach. It does not submit anywhere (static site), but it demonstrates form layout, validation, and accessibility.</p>
+
+          <form class="form" action="#" method="post">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button class="btn btn--primary" type="submit">Submit</button>
+            <p class="note">Tip: If you want a working form later, we can connect this to Formspree or a server endpoint.</p>
+          </form>
+        </div>
+      </article>
+
+      <aside class="card col-5">
+        <div class="card__pad">
+          <h2 class="h2">Direct</h2>
+          <p class="small"><strong>Email:</strong> <a href="mailto:MitchelPMoss@gmail.com">MitchelPMoss@gmail.com</a></p>
+          <p class="small"><strong>Phone:</strong> (480) 510-0440</p>
+          <p class="small"><strong>Location:</strong> Phoenix, AZ</p>
+          <p class="small"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/MitchelPM" target="_blank" rel="noopener">linkedin.com/in/MitchelPM</a></p>
+
+          <hr class="rule" />
+          <h2 class="h2">Download</h2>
+          <div class="btnrow">
+            <a class="btn" href="assets/Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__left">
+      <p class="footer__title">Mitchel Moss</p>
+      <p class="footer__meta">Phoenix, AZ • <a href="mailto:MitchelPMoss@gmail.com">MitchelPMoss@gmail.com</a> • <a href="https://www.linkedin.com/in/MitchelPM" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+    <div class="footer__right">
+      <a class="btn btn--ghost" href="assets/Resume.pdf" target="_blank" rel="noopener">Open Resume (PDF)</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

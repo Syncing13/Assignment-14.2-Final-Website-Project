@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio website for Mitchel Moss — cybersecurity, network security, digital forensics, and projects." />
+  <meta name="author" content="Mitchel Moss" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Mitchel Moss | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html" aria-label="Go to homepage">
+      <img class="brand__logo" src="images/logo.png" alt="MPM logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mitchel Moss</span>
+        <span class="brand__tag">Cybersecurity • Network Security • Digital Forensics</span>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav__link is-active" href="index.html">Home</a>
+<a class="nav__link" href="about.html">About</a>
+<a class="nav__link" href="projects.html">Projects</a>
+<a class="nav__link" href="boards.html">Boards</a>
+<a class="nav__link" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="container hero__grid">
+    <article class="card">
+      <div class="card__pad">
+        <div class="kicker">Portfolio</div>
+        <h1 class="h1">Secure, usable systems — built with a hacker’s curiosity.</h1>
+        <p class="lead">Hi, I’m Mitchel Moss — an IT professional specializing in network security, digital forensics, and technology leadership. I help people and organizations streamline operations, strengthen security, and keep systems running reliably.</p>
+        <div class="btnrow">
+          <a class="btn btn--primary" href="projects.html">View Projects</a>
+          <a class="btn" href="boards.html">Boards Objectives</a>
+          <a class="btn btn--ghost" href="assets/Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+        </div>
+        <hr class="rule" />
+        <p class="small">
+          <span class="pill"><strong>Focus</strong> Network Security</span>
+          <span class="pill"><strong>Focus</strong> Digital Forensics</span>
+          <span class="pill"><strong>Focus</strong> CTF Development</span>
+        </p>
+      </div>
+    </article>
+
+    <aside class="card">
+      <div class="card__pad">
+        <div class="kicker">Quick Profile</div>
+        <div style="display:grid; gap:.9rem; margin-top:.8rem;">
+          <img src="images/profile.jpg" alt="Portrait photo of Mitchel Moss" style="border-radius:16px; border:1px solid rgba(255,255,255,.10)" />
+          <div class="small">
+            <p style="margin:.2rem 0;"><strong>Email:</strong> <a href="mailto:MitchelPMoss@gmail.com">MitchelPMoss@gmail.com</a></p>
+            <p style="margin:.2rem 0;"><strong>Phone:</strong> (480) 510-0440</p>
+            <p style="margin:.2rem 0;"><strong>Location:</strong> Phoenix, AZ</p>
+            <p style="margin:.2rem 0;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/MitchelPM" target="_blank" rel="noopener">linkedin.com/in/MitchelPM</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid">
+      <section class="card col-7">
+        <div class="card__pad">
+          <h2 class="h2">What I’m building right now</h2>
+          <p class="lead">My Student Innovation Project is a self-hosted CTF framework for UAT students — designed to be flexible, teachable, and easy to extend.</p>
+          <ul class="list">
+            <li>Docker-based deployment and reproducible builds</li>
+            <li>Challenge imports and documentation for non-experts</li>
+            <li>Clear UX so students can learn faster</li>
+          </ul>
+          <div class="links">
+            <a href="projects.html#uatf">Read the UATf breakdown</a>
+            <a href="https://uatf.ctfd.io/" target="_blank" rel="noopener">Open live demo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card col-5">
+        <div class="card__pad">
+          <h2 class="h2">Featured demo</h2>
+          <p class="small">A short walkthrough video for the UATf build &amp; import process.</p>
+          <div class="card" style="overflow:hidden; border-radius:14px; border:1px solid rgba(255,255,255,.10);">
+            <iframe width="100%" height="240" src="https://www.youtube.com/embed/3GorpX7aid8" title="UATf walkthrough" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p class="note" style="margin-top:.7rem;">If the embed doesn’t load on your network, use the direct link from the Projects page.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__left">
+      <p class="footer__title">Mitchel Moss</p>
+      <p class="footer__meta">Phoenix, AZ • <a href="mailto:MitchelPMoss@gmail.com">MitchelPMoss@gmail.com</a> • <a href="https://www.linkedin.com/in/MitchelPM" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+    <div class="footer__right">
+      <a class="btn btn--ghost" href="assets/Resume.pdf" target="_blank" rel="noopener">Open Resume (PDF)</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
